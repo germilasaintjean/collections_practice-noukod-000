@@ -40,7 +40,7 @@ def kesha_maker(array)
      word_array.join("")
   end
 end
-ef sum_array(num_array)
+def sum_array(num_array)
   num_array.inject(0) {|sum,num| sum + num}
 end
   def find_a(array)
