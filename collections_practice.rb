@@ -48,6 +48,14 @@ end
   end
 
 
-def add_s(array)
-[1,2].each_with_index.collect{|element, index| }
-end
+  def add_s(array)
+    count = 0
+    array.collect do |word|
+      word_array=word.split("")
+      if count !=1
+       word_array.push("s")
+     end
+      count +=1
+   word_array.join("")
+    end
+  end
